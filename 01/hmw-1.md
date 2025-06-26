@@ -18,6 +18,8 @@
 Ответ
 
 - допустимо сохранить личную, секретную информацию?(логины,пароли,ключи,токены итд) -- personal.auto.tfvars
+- намеренно допущенные ошибки в правильном написании и оформлении кода
+- не был удалён docker-образ nginx:latest и-за опции keep_locally = true, Значение true означает, что образ Docker не будет удалён при операции уничтожения (destroy). Если параметр установлен в значение false, то образ будет удалён из локального хранилища Docker при той же операции.
 
 ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/terraform-version.png)
 
