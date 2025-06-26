@@ -19,14 +19,14 @@
 
 - допустимо сохранить личную, секретную информацию?(логины,пароли,ключи,токены итд) -- personal.auto.tfvars
 
-![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/terraform-version.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/terraform-version.png)
 
-![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/tfstate.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/tfstate.png)
 
-![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/dockerpsnginx.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/dockerpsnginx.png)
 
-![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/dockerpshelloworld.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/dockerpshelloworld.png)
 
-![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/debugmaintf.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/debugmaintf.png)
 
-![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/terdestroy.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/01/screenshots/terdestroy.png)
