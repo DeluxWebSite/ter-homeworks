@@ -4,11 +4,13 @@
 variable "cloud_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
+  default="b1gm0v9ctsng7jrgr49v"
 }
 
 variable "folder_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
+  default="b1g9kesmig0rfm09tt03"
 }
 
 variable "default_zone" {
@@ -33,6 +35,11 @@ variable "vpc_name" {
 
 variable "vms_ssh_root_key" {
   type        = string
-  default     = "<your_ssh_ed25519_key>"
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHUbDaUR/AYQE3NziN3KYg/xIyXEQAYdHt+jh545WkUo ubuntu@ubuntu"
+  description = "ssh-keygen -t ed25519"
+}
+variable "vms_ssh_public_root_key" {
+  type        = string
+  default     = "~/.ssh/id_ed25519.pub"
   description = "ssh-keygen -t ed25519"
 }
