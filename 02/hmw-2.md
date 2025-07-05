@@ -35,11 +35,11 @@
 
 После исправления ошибок удалось запустить код и создать виртуальную машину.
 
-5. ![alt text](https://github.com/DeluxWebSite/devops-netology/blob/main/vm2025-07-05 в 15.52.50.45.png)
-   ![alt text](https://github.com/DeluxWebSite/devops-netology/blob/main/ssh2025-07-05 в 16.21.59.45.png)
-   ![alt text](https://github.com/DeluxWebSite/devops-netology/blob/main/ssh2025-07-05 в 16.21.59.45.png)
+1. ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/Снимок%20экрана%202025-07-05%20в%2016.33.41.png)
+   ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/Снимок%20экрана%202025-07-05%20в%2016.34.04.png)
+   ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/Снимок%20экрана%202025-07-05%20в%2016.34.30.png)
 
-6. Параметр preemptible = true применяется в том случае, если нужно сделать виртуальную машину прерываемой, то есть возможность остановки ВМ в любой момент. Применятся если с момента запуска машины прошло 24 часа либо возникает нехватка ресурсов для запуска ВМ. Прерываемые ВМ не обеспечивают отказоустойчивость. Параметр core_fraction=5 указывает базовую производительность ядра в процентах. Указывается для экономии ресурсов.
+2. Параметр preemptible = true применяется в том случае, если нужно сделать виртуальную машину прерываемой, то есть возможность остановки ВМ в любой момент. Применятся если с момента запуска машины прошло 24 часа либо возникает нехватка ресурсов для запуска ВМ. Прерываемые ВМ не обеспечивают отказоустойчивость. Параметр core_fraction=5 указывает базовую производительность ядра в процентах. Указывается для экономии ресурсов.
 
 ---
 
@@ -51,8 +51,8 @@
 
 ---
 
-![terraform plan](https://github.com/DeluxWebSite/devops-netology/blob/main/ssh2025-07-05 в 16.21.59.45.png)
-![terraform plan](https://github.com/DeluxWebSite/devops-netology/blob/main/ssh2025-07-05 в 16.21.59.45.png)
+![terraform plan](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/tf%20plan%202025-07-05%20в%2017.14.42.png)
+![terraform plan](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/tf%20plan%202%202025-07-05%20в%2017.16.49.png)
 
 ---
 
@@ -64,7 +64,7 @@
 
 ---
 
-## ![+ vm db](https://github.com/DeluxWebSite/devops-netology/blob/main/ssh2025-07-05 в 16.21.59.45.png)
+![+ vm db](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/3-1%20Снимок%20экрана%202025-07-05%20в%2017.37.48.png)
 
 ---
 
@@ -75,7 +75,8 @@
 
 ## В качестве решения приложите вывод значений ip-адресов команды `terraform output`.
 
-## ![outputs](https://github.com/DeluxWebSite/devops-netology/blob/main/ssh2025-07-05 в 16.21.59.45.png)
+![outputs](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/4-1%20Снимок%20экрана%202025-07-05%20в%2017.43.49.png)
+![outputs](https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/4-2%20Снимок%20экрана%202025-07-05%20в%2017.43.39.png)
 
 ---
 
@@ -123,3 +124,5 @@
 
 3. Найдите и закоментируйте все, более не используемые переменные проекта.
 4. Проверьте terraform plan. Изменений быть не должно.
+
+[def]: https://github.com/DeluxWebSite/ter-homeworks/blob/main/02/screenshots/Снимок%20экрана%202025-07-05%20в%2016.33.41.png
