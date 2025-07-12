@@ -7,11 +7,13 @@ variable "token" {
 variable "cloud_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
+  default="b1gm0v9ctsng7jrgr49v"
 }
 
 variable "folder_id" {
   type        = string
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
+  default="b1g9kesmig0rfm09tt03"
 }
 
 variable "default_zone" {
@@ -19,6 +21,7 @@ variable "default_zone" {
   default     = "ru-central1-a"
   description = "https://cloud.yandex.ru/docs/overview/concepts/geo-scope"
 }
+
 variable "default_cidr" {
   type        = list(string)
   default     = ["10.0.1.0/24"]
@@ -29,4 +32,10 @@ variable "vpc_name" {
   type        = string
   default     = "develop"
   description = "VPC network&subnet name"
+}
+
+variable "vms_ssh_root_key" {
+  type        = string
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHUbDaUR/AYQE3NziN3KYg/xIyXEQAYdHt+jh545WkUo ubuntu@ubuntu"
+  description = "ssh-keygen -t ed25519"
 }
