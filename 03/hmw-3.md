@@ -11,7 +11,7 @@
 
 ---
 
-## ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/03/Снимок%20экрана%202025-07-12%20в%2016.18.36.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/03/Снимок%20экрана%202025-07-12%20в%2016.18.36.png)
 
 ---
 
