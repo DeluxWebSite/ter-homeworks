@@ -59,4 +59,4 @@ module "vpc_dev" {
 ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2012.08.12.png)
 ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2012.10.44.png)
 ![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2012.21.10.png)
-![terraform-docs](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/DOC.md)
+![terraform-docs](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/DOC.md 'Terraform-docs')
