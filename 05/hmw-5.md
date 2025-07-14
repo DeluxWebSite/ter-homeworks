@@ -14,9 +14,9 @@
 
 ---
 
-![alt text]()
-![alt text]()
-![alt text]()
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/05/screenshots/Снимок%20экрана%20от%202025-07-14%2012-01-09.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/05/screenshots/Снимок%20экрана%20от%202025-07-14%2010-50-57.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/main/05/screenshots/Снимок%20экрана%20от%202025-07-14%2010-51-48.png)
 
 После выполнения команды выявлены следующие ошибки:
 
