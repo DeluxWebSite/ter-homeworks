@@ -30,7 +30,7 @@ resource "yandex_compute_instance" "for_each" {
   depends_on = [yandex_compute_instance.count]
 
   for_each = {for env in var.wm_resources : env.vm_name => env}
-  platform_id = "standard-v1"
+  platform_id = var.platform_standard-v1
   name = each.value.vm_name
 
   resources {
@@ -40,7 +40,7 @@ resource "yandex_compute_instance" "for_each" {
 }
   boot_disk {
     initialize_params {
-      image_id = "fd8nru7hnggqhs9mkqps"
+      image_id = data.yandex_compute_image.img.id
     }
   }
 

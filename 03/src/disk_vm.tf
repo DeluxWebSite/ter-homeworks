@@ -3,8 +3,8 @@ resource "yandex_compute_disk" "default" {
   name     = "disk-name-${count.index}"
   size     = "8"
   type     = "network-ssd"
-  zone     = "ru-central1-a"
-  image_id = "fd8nru7hnggqhs9mkqps"
+  zone     = var.default_zone
+  image_id = data.yandex_compute_image.img.id
 
   labels = {
     environment = "test"
@@ -16,8 +16,8 @@ resource "yandex_compute_disk" "default" {
 resource "yandex_compute_instance" "storage" {
 
 name = "vm-from-disks"
-platform_id = "standard-v3"
-zone = "ru-central1-a"
+platform_id = var.platform_standard-v3
+zone = var.default_zone
 allow_stopping_for_update = "true"
 
 resources {
@@ -27,7 +27,7 @@ memory = 2
 
 boot_disk {
 initialize_params {
-image_id = "fd8g64rcu9fq5kpfqls0"
+image_id = data.yandex_compute_image.img.id
 }
 }
 
