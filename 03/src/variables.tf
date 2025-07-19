@@ -66,3 +66,20 @@ variable "type" {
   type        = string
   default     = "network-ssd"
 }
+
+variable "cores" {
+  type        = number
+  default     = 2
+}
+variable "memory" {
+  type        = number
+  default     = 2
+}
+variable "core_fraction" {
+  type        = number
+  default     = 20
+}
+variable "name" {
+  type        = string
+  default     = "vm-from-disks"
+}
