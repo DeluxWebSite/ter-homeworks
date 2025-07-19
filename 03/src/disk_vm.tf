@@ -28,7 +28,7 @@ resources {
 
 boot_disk {
 initialize_params {
-image_id = "fd8g64rcu9fq5kpfqls0"
+image_id = data.yandex_compute_image.img.id
 }
 }
 
