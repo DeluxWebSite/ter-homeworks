@@ -1,9 +1,9 @@
 resource "yandex_compute_disk" "default" {
-  count    = 3
+  count    = var.count_vm
   name     = "disk-name-${count.index}"
-  size     = "8"
-  type     = "network-ssd"
-  zone     = "ru-central1-a"
+  size     = var.size
+  type     = var.type
+  zone     = var.default_zone
   image_id = "fd8nru7hnggqhs9mkqps"
 
   labels = {
@@ -16,14 +16,15 @@ resource "yandex_compute_disk" "default" {
 resource "yandex_compute_instance" "storage" {
 
 name = "vm-from-disks"
-platform_id = "standard-v3"
-zone = "ru-central1-a"
+platform_id = var.vm_platform
+zone = var.default_zone
 allow_stopping_for_update = "true"
 
 resources {
-cores = 2
-memory = 2
-}
+    cores         = var.vms_resources.vm_web_resources.cores # Минимальное значение vCPU = 2. ccылка: https://cloud.yandex.ru/docs/compute/concepts/performance-levels
+    memory        = var.vms_resources.vm_web_resources.memory
+    core_fraction = var.vms_resources.vm_web_resources.core_fraction
+  }
 
 boot_disk {
 initialize_params {

@@ -1,11 +1,11 @@
 resource "yandex_compute_instance" "web" {
-  count = 2
-  name        = "web-${count.index+1}"
-  platform_id = "standard-v1"
+  count = var.count_vm
+  name        = "netology-develop-${count.index + 1}"
+  platform_id = var.vm_platform
   resources {
-	cores     	= 2
-	memory    	= 1
-	core_fraction = 5
+    cores         = var.vms_resources.vm_web_resources.cores # Минимальное значение vCPU = 2. ccылка: https://cloud.yandex.ru/docs/compute/concepts/performance-levels
+    memory        = var.vms_resources.vm_web_resources.memory
+    core_fraction = var.vms_resources.vm_web_resources.core_fraction
   }
 
   boot_disk {

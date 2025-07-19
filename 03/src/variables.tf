@@ -39,3 +39,18 @@ variable "vms_ssh_root_key" {
   default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHUbDaUR/AYQE3NziN3KYg/xIyXEQAYdHt+jh545WkUo ubuntu@ubuntu"
   description = "ssh-keygen -t ed25519"
 }
+
+variable "count_vm" {
+  type        = number
+  default     = 3
+}
+
+variable "size" {
+  type        = number
+  default     = 8
+}
+
+variable "type" {
+  type        = string
+  default     = "network-ssd"
+}
