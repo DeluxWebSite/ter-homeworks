@@ -36,11 +36,11 @@ image_id = data.yandex_compute_image.img.id
 }
 }
 
-  dynamic secondary_disk {
-   for_each = "${yandex_compute_disk.disk.*.id}"
-   content {
-        disk_id = yandex_compute_disk.disk["${secondary_disk.key}"].id
-   }
+  dynamic "secondary_disk" {
+    for_each = { for s in yandex_compute_disk.storage[*]: s.name=> s }
+    content {
+        disk_id=secondary_disk.value.id
+    }
 }
 
 
