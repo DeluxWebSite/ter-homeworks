@@ -11,6 +11,12 @@
 
 ---
 
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.44.50.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.45.07.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.46.17.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.48.08.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.49.10.png)
+
 ---
 
 ### Задание 2
@@ -34,6 +40,8 @@ module "vpc_dev" {
 
 ---
 
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.50.20.png)
+
 ---
 
 ### Задание 3
@@ -45,3 +53,9 @@ module "vpc_dev" {
    Приложите список выполненных команд и скриншоты процессы.
 
 ---
+
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2011.59.52.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2012.08.12.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2012.10.44.png)
+![alt text](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/screenshots/Снимок%20экрана%202025-07-13%20в%2012.21.10.png)
+[terraform-docs](https://github.com/DeluxWebSite/ter-homeworks/blob/terraform-03/04/hmw-04/DOC.md 'Terraform-docs')
